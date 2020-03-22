@@ -6,6 +6,6 @@ cp /subfinder/subfinder.json /config/subfinder.json
 fi
 
 # permissions
-chown -R abc:abc \
+chown -R 666 abc:abc \
     /config \
     /libraries
