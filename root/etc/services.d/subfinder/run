@@ -4,4 +4,4 @@
 exec \
 	s6-setuidgid abc \
 	subfinder /libraries \
-	-c /config/subfinder.json
+	-c /config/subfinder.json ;sleep 10m
