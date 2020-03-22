@@ -4,5 +4,6 @@
 if [ "${AUTOEXIT}" = "true" ]
  then
   # s6-svscanctl -t /var/run/s6/services
+  sleep 10m
   echo subfinder job is done.
 fi
