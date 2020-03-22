@@ -1,8 +1,10 @@
 #!/usr/bin/with-contenv bash
 
 # 启动subfinder查找字幕
-exec \
+# exec \
 	s6-setuidgid abc \
 	subfinder /libraries \
 	-c /config/subfinder.json
-sleep 10m
+# 等待1小时再扫描
+echo wait 1 hour to restart the job.
+sleep 60m
