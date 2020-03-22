@@ -8,6 +8,8 @@
 
 
 
+以下是原版说明
+
 # Docker SubFinder 自动刮削字幕器
 
 Docker Hub：https://hub.docker.com/r/superng6/subfinder
