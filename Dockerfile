@@ -5,7 +5,7 @@ LABEL maintainer="vshen"
 ENV TZ=Asia/Shanghai AUTOEXIT=true PUID=1026 PGID=100
 
 # install subfinder
-RUN apt -y update && apt -y install python3 python3-pip vim bash-completion unrar \
+RUN apt -y update && apt -y install python3 python3-pip vim unrar \
 &&  pip3 install --upgrade pip \
 &&  pip install subfinder \
 &&  echo "**** cleanup ****" \
