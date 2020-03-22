@@ -2,7 +2,7 @@ FROM lsiobase/ubuntu:bionic
 
 # set label
 LABEL maintainer="vshen"
-ENV TZ=Asia/Shanghai AUTOEXIT=true PUID=1026 PGID=100
+ENV TZ=Asia/Shanghai AUTOEXIT=true PUID=1000 PGID=100
 
 # install subfinder
 RUN apt -y update && apt -y install python3 python3-pip vim unrar \
