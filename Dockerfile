@@ -1,7 +1,7 @@
 FROM lsiobase/ubuntu:bionic
 
 # set label
-LABEL maintainer="NG6"
+LABEL maintainer="vshen"
 ENV TZ=Asia/Shanghai AUTOEXIT=true PUID=1026 PGID=100
 
 # install subfinder
