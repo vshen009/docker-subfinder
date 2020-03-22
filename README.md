@@ -1,3 +1,15 @@
+# Docker SubFinder 自动刮削字幕器  -定时运行版
+
+修改 SuperNG6/docker-subfinder 的docker版本，改成用于定时运行的方式.
+
+
+
+
+
+
+
+以下是原版说明
+
 # Docker SubFinder 自动刮削字幕器
 
 Docker Hub：https://hub.docker.com/r/superng6/subfinder
