@@ -6,5 +6,5 @@
 	subfinder /libraries \
 	-c /config/subfinder.json
 # 等待1小时再扫描
-echo wait 1 hour to restart the job.
+echo wait 60 mins to restart subfinder job.
 sleep 60m
