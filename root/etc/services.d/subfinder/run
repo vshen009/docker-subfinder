@@ -4,7 +4,8 @@
 # exec \
 	s6-setuidgid abc \
 	subfinder /libraries \
-	-c /config/subfinder.json
+	-c /config/subfinder.json -m shooter zimuku
 # 等待1小时再扫描
-echo wait 60 mins to restart subfinder job.
+date
+echo wait an hour to restart subfinder job.
 sleep 60m
